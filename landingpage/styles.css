@@ -89,7 +89,6 @@ a:visited {
     width: 200px;
     margin: 50px;
     padding-left: 100px;
-
 }
 
 .info {
@@ -111,8 +110,7 @@ a:visited {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .cards p {
@@ -149,8 +147,7 @@ a:visited {
 .action {
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .actionspan {
