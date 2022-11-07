@@ -36,18 +36,21 @@ p:nth-of-type(1) {
 .hero {
     background-color: #1f2937;
     color:#f9faf8;
-    max-height: 150px;
-    padding-top: 100px;
+    max-height: 150vh;
+    padding-top: 50px;
+    padding-bottom: 45px;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 .signup {
     background-color: #3882F6;
     border: none;
     border-radius: 10px;
-    width: 150px;
-    margin: 38px;
+    min-width: 150px;
+    height: 42px;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -59,14 +62,21 @@ p:nth-of-type(1) {
     font-size: 48px;
 }
 
+.herotext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .pppic {
-    max-height: 120px;
-    align-self: flex-end;
+    height: 180px;
+    width: 200px;
+    margin: 50px;
+    padding-left: 100px;
+
 }
 
 .info {
-    flex: 1
+    flex: 1;
 }
 
 .footer {
