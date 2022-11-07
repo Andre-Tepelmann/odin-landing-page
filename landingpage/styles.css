@@ -69,6 +69,11 @@ a:visited {
     box-shadow: 0 5px 15px #3882F6;
 }
 
+.signup2:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px #E5E7EB;
+}
+
 .heromaintext {
     font-weight: bold;
     font-size: 48px;
@@ -88,35 +93,36 @@ a:visited {
 }
 
 .info {
-    flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    gap: 50px;
 }
 
 .infoheader {
     text-align: center;
     padding-top: 15px;
+    padding-bottom: 33px;
 }
 
 .cards {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 3em 0 6em 0;
+    
+}
+
+.cards p {
+    text-align: center;
 }
 
 .card {
-    text-align: center;
-    max-width: 300px;
-    max-height: 200px;
-    border-style: solid;
-    border-color: #3882F6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;  
+    height: 200px;
+    border-radius: 10px;
+    border: solid #3882F6 2px;
 }
 
 
@@ -141,27 +147,30 @@ a:visited {
 }
 
 .action {
-    background-color: #3882F6;
-    color:#f9faf8;
-    border-radius: 10px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 20px 0 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .actionspan {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     gap: 400px;
+    min-width: 0;
+    background-color: #3882F6;
+    color:#f9faf8;
+    border-radius: 12px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .left {
     display: flex;
     flex-direction: column;
+    flex: 1 1 0;
+    padding-left: 80px;
 }
 
 
@@ -169,6 +178,8 @@ a:visited {
     display: flex;
     align-items: center;
     padding-left: 50px;
+    flex: 1;
+    min-width: 0;
 }
 
 .signup2 {
